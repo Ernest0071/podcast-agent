@@ -1,0 +1,8 @@
+.venv
+.env
+outputs
+**/__pycache__
+.pytest_cache
+.git
+docs/*.pdf
+docs/*.jpg

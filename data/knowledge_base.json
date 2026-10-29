@@ -1,0 +1,195 @@
+{
+  "description": "Curated reference statements used by the fact-check step. A mock stand-in for an agency research database; every entry carries a source and an as-of date so stale facts can be flagged.",
+  "updated": "2025-06-30",
+  "entries": [
+    {
+      "id": "kb-remote-001",
+      "topic": "GitLab remote work handbook",
+      "statement": "GitLab is an all-remote company with no offices. It publishes its company handbook publicly at handbook.gitlab.com; the handbook runs to thousands of pages and covers processes, values and how work gets done.",
+      "keywords": ["gitlab", "handbook", "all-remote", "documentation", "public handbook"],
+      "source": "GitLab Handbook",
+      "url": "https://handbook.gitlab.com/",
+      "as_of": "2025-01-01"
+    },
+    {
+      "id": "kb-remote-002",
+      "topic": "Automattic distributed company",
+      "statement": "Automattic, the company behind WordPress.com and Tumblr, has been fully distributed since its founding in 2005 and closed its San Francisco office in 2017. It documents its way of working in the Automattic Creed and an internal field guide; its handbook is mostly internal rather than published like GitLab's.",
+      "keywords": ["automattic", "wordpress", "distributed", "remote", "handbook", "field guide"],
+      "source": "Automattic - About",
+      "url": "https://automattic.com/about/",
+      "as_of": "2025-01-01"
+    },
+    {
+      "id": "kb-remote-003",
+      "topic": "Doist async-first remote company",
+      "statement": "Doist, the maker of Todoist and Twist, is a remote-first company with roughly 100 employees across more than 30 countries. It publicly advocates async-first communication and has published guides on remote and asynchronous work.",
+      "keywords": ["doist", "todoist", "twist", "async", "asynchronous", "remote-first", "guide"],
+      "source": "Doist - About / Doist blog",
+      "url": "https://doist.com/",
+      "as_of": "2025-01-01"
+    },
+    {
+      "id": "kb-remote-004",
+      "topic": "Share of remote work days in the US",
+      "statement": "According to the Survey of Working Arrangements and Attitudes (WFH Research), roughly a quarter of paid full workdays in the US were worked from home through 2024 and 2025, down from a peak above 60% in spring 2020 and far above the roughly 5% pre-pandemic level.",
+      "keywords": ["remote work", "work from home", "statistics", "share", "trend", "hybrid", "2025"],
+      "source": "WFH Research (Barrero, Bloom, Davis)",
+      "url": "https://wfhresearch.com/",
+      "as_of": "2025-05-01"
+    },
+    {
+      "id": "kb-remote-005",
+      "topic": "Return-to-office mandates",
+      "statement": "Several large employers tightened office mandates in 2024-2025; for example Amazon required corporate employees to work from the office five days a week starting January 2, 2025. Hybrid arrangements remain the most common pattern for remote-capable jobs.",
+      "keywords": ["return to office", "rto", "amazon", "mandate", "hybrid", "office", "remote-first", "talent"],
+      "source": "Amazon - message from CEO Andy Jassy (Sept 2024)",
+      "url": "https://www.aboutamazon.com/news/company-news/ceo-andy-jassy-latest-update-on-amazon-return-to-office-manager-team-changes",
+      "as_of": "2025-01-02"
+    },
+    {
+      "id": "kb-remote-006",
+      "topic": "Remote work and talent pool",
+      "statement": "Surveys consistently show many workers value remote or hybrid flexibility and employers offering it widen their hiring pool, but evidence that remote-first firms dominate hiring overall is not established.",
+      "keywords": ["talent acquisition", "hiring", "remote-first", "flexibility", "prediction"],
+      "source": "WFH Research; Gallup hybrid work indicators",
+      "url": "https://www.gallup.com/401384/indicator-hybrid-work.aspx",
+      "as_of": "2025-03-01"
+    },
+    {
+      "id": "kb-health-001",
+      "topic": "FDA AI-enabled medical devices",
+      "statement": "The FDA maintains a public list of AI-enabled medical devices it has authorized; the list passed 1,000 devices by 2025. Roughly three quarters are in radiology, and most were cleared through the 510(k) pathway, with others via De Novo or PMA review.",
+      "keywords": ["fda", "ai", "medical devices", "radiology", "510(k)", "regulation", "review", "x-ray"],
+      "source": "FDA - Artificial Intelligence-Enabled Medical Devices",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices",
+      "as_of": "2025-07-10"
+    },
+    {
+      "id": "kb-health-002",
+      "topic": "Autonomous AI diagnostics already authorized",
+      "statement": "In April 2018 the FDA granted De Novo authorization to IDx-DR (now LumineticsCore), the first AI system authorized to give a screening decision for diabetic retinopathy without a clinician interpreting the image. Autonomous AI diagnostics therefore already exist in narrow use cases.",
+      "keywords": ["autonomous", "autonomy", "idx-dr", "diabetic retinopathy", "fda", "de novo", "diagnostic", "ai"],
+      "source": "FDA press release, April 11 2018",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-artificial-intelligence-based-device-detect-certain-diabetes-related-eye-problems",
+      "as_of": "2018-04-11"
+    },
+    {
+      "id": "kb-health-003",
+      "topic": "AI triage of urgent imaging findings",
+      "statement": "Hospitals use FDA-authorized computer-aided triage software to flag urgent findings on imaging, such as Viz.ai's stroke (large vessel occlusion) alerting, authorized in 2018, and Aidoc's tools for CT findings. These systems prioritise worklists for radiologists rather than replacing their reads.",
+      "keywords": ["triage", "radiology", "x-ray", "ct", "urgent", "viz.ai", "aidoc", "flagging", "hospitals", "assistive"],
+      "source": "FDA press release, February 13 2018 (Viz.ai ContaCT)",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-clinical-decision-support-software-alerting-providers-potential-stroke-patients",
+      "as_of": "2018-02-13"
+    },
+    {
+      "id": "kb-health-004",
+      "topic": "Symptom checker and triage chatbots",
+      "statement": "Health systems deploy symptom checker and digital triage tools (for example from Ada Health, Infermedica and Buoy Health) on websites and apps to guide patients to an appropriate level of care before a visit.",
+      "keywords": ["chatbot", "symptom checker", "triage", "patients", "hospital website", "app", "next steps"],
+      "source": "Vendor deployment announcements; peer-reviewed evaluations of symptom checkers",
+      "url": "https://www.bmj.com/content/351/bmj.h3480",
+      "as_of": "2024-12-01"
+    },
+    {
+      "id": "kb-health-005",
+      "topic": "Pandemic acceleration of digital health",
+      "statement": "COVID-19 sharply accelerated digital health adoption: McKinsey estimated in 2021 that telehealth use had stabilised at about 38 times the pre-pandemic baseline.",
+      "keywords": ["pandemic", "covid", "digital health", "telehealth", "adoption", "accelerated"],
+      "source": "McKinsey & Company, 'Telehealth: A quarter-trillion-dollar post-COVID-19 reality?' (July 2021)",
+      "url": "https://www.mckinsey.com/industries/healthcare/our-insights/telehealth-a-quarter-trillion-dollar-post-covid-19-reality",
+      "as_of": "2021-07-09"
+    },
+    {
+      "id": "kb-health-006",
+      "topic": "Bias in clinical algorithms",
+      "statement": "Obermeyer et al. (Science, 2019) showed that a widely used commercial algorithm for managing patient health under-identified Black patients for extra care because it used past healthcare cost as a proxy for need, a well-documented example of bias learned from historical clinical data.",
+      "keywords": ["bias", "clinical data", "skewed", "algorithm", "equity", "training data", "obermeyer"],
+      "source": "Obermeyer Z. et al., Science 366(6464), 2019",
+      "url": "https://www.science.org/doi/10.1126/science.aax2342",
+      "as_of": "2019-10-25"
+    },
+    {
+      "id": "kb-health-007",
+      "topic": "Health data privacy rules",
+      "statement": "In the US, protected health information is governed by HIPAA; using patient data to train or run AI systems raises privacy and consent obligations for covered entities and their business associates.",
+      "keywords": ["privacy", "hipaa", "data privacy", "patient data", "health data"],
+      "source": "HHS - HIPAA for Professionals",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/index.html",
+      "as_of": "2025-01-01"
+    },
+    {
+      "id": "kb-health-008",
+      "topic": "Healthcare interoperability",
+      "statement": "US interoperability policy is built on the 21st Century Cures Act (2016), the ONC information-blocking rules and the HL7 FHIR standard. TEFCA, the national framework for exchanging health information, went live in December 2023.",
+      "keywords": ["interoperability", "fhir", "tefca", "cures act", "information blocking", "systems talk to each other"],
+      "source": "ASTP/ONC - TEFCA",
+      "url": "https://www.healthit.gov/topic/interoperability/policy/trusted-exchange-framework-and-common-agreement-tefca",
+      "as_of": "2023-12-12"
+    },
+    {
+      "id": "kb-health-009",
+      "topic": "Clinician-in-the-loop decision support",
+      "statement": "Most FDA-authorized AI tools are labelled as aids to clinicians (computer-aided detection, triage or decision support); final diagnostic and treatment decisions generally remain with a licensed clinician.",
+      "keywords": ["assistive", "clinician", "human in the loop", "final call", "decision support", "copilot", "treatment plans"],
+      "source": "FDA - Clinical Decision Support Software guidance (2022)",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software",
+      "as_of": "2022-09-28"
+    },
+    {
+      "id": "kb-startup-001",
+      "topic": "Bootstrapped company outcomes - Mailchimp",
+      "statement": "Mailchimp grew without venture capital and was acquired by Intuit for about $12 billion in cash and stock in 2021, a frequently cited example of a bootstrapped company reaching a large outcome.",
+      "keywords": ["bootstrapping", "bootstrapped", "mailchimp", "no outside capital", "acquisition", "profitability"],
+      "source": "Intuit press release, November 1 2021",
+      "url": "https://investors.intuit.com/news-events/press-releases/detail/1046/intuit-completes-acquisition-of-mailchimp",
+      "as_of": "2021-11-01"
+    },
+    {
+      "id": "kb-startup-002",
+      "topic": "Bootstrapped company outcomes - Atlassian",
+      "statement": "Atlassian was founded in 2002 and self-funded for about eight years before taking its first outside investment, a $60 million round from Accel in 2010.",
+      "keywords": ["bootstrapping", "atlassian", "self-funded", "accel", "venture capital"],
+      "source": "Atlassian corporate history",
+      "url": "https://www.atlassian.com/history",
+      "as_of": "2024-01-01"
+    },
+    {
+      "id": "kb-startup-003",
+      "topic": "Dilution from venture rounds",
+      "statement": "Founders typically sell around 20% of the company in a priced seed round and a similar share in Series A, according to Carta data, so venture funding dilutes founder ownership and control over successive rounds.",
+      "keywords": ["dilution", "dilute", "control", "seed", "series a", "venture capital", "vc", "equity"],
+      "source": "Carta - State of Private Markets / dilution data",
+      "url": "https://carta.com/data/",
+      "as_of": "2024-12-01"
+    },
+    {
+      "id": "kb-startup-004",
+      "topic": "VC fund lifecycle and exit pressure",
+      "statement": "Venture capital funds commonly have a roughly 10-year term (often with extensions), which creates pressure for portfolio companies to reach a liquidity event such as an acquisition or IPO within that window.",
+      "keywords": ["exit", "quick exits", "pressure", "fund life", "vc", "liquidity", "ipo", "acquisition"],
+      "source": "NVCA - venture capital industry overview",
+      "url": "https://nvca.org/",
+      "as_of": "2024-01-01"
+    },
+    {
+      "id": "kb-startup-005",
+      "topic": "Venture funding and growth speed",
+      "statement": "Venture capital is designed to fund rapid growth ahead of revenue in large markets; most startups never raise venture capital, and bootstrapped firms typically grow more slowly but keep full ownership.",
+      "keywords": ["growth", "faster growth", "resources", "bootstrapping", "slower growth", "market capture", "competitive"],
+      "source": "Harvard Business School Online - bootstrapping vs. venture capital",
+      "url": "https://online.hbs.edu/blog/post/bootstrapping-a-business",
+      "as_of": "2024-01-01"
+    },
+    {
+      "id": "kb-general-001",
+      "topic": "NASA Mars Sample Return",
+      "statement": "NASA's Mars Sample Return campaign has faced major cost and schedule overruns; in 2024 NASA said its original plan was too expensive and slow, and sought alternative architectures, with sample return no earlier than the 2030s. Perseverance continues to cache samples on Mars.",
+      "keywords": ["nasa", "mars", "mission", "sample return", "2026", "launch", "perseverance"],
+      "source": "NASA - Mars Sample Return update (April 2024)",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-path-to-return-mars-samples-seeks-innovative-design/",
+      "as_of": "2025-01-07"
+    }
+  ]
+}

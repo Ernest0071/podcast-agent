@@ -1,0 +1,10 @@
+services:
+  agent:
+    build: .
+    image: podcast-agent:latest
+    env_file: .env
+    tty: true
+    volumes:
+      - ./outputs:/app/outputs
+      - ./data:/app/data:ro
+      - ./config.yaml:/app/config.yaml:ro
