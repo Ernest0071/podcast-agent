@@ -9,4 +9,4 @@ build/
 docs/*.pdf
 docs/*.jpg
 docs/ep*.json
-docs/
+docs/.DS_Store
