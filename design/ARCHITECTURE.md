@@ -19,7 +19,7 @@ Non-goals for this version: audio transcription, a web UI, and persistence beyon
 ## 2. Component view
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph Input
         F[".json / .txt transcripts"]
     end
@@ -71,51 +71,47 @@ The agent is a tool-use loop: the model decides, the code executes and validates
 sequenceDiagram
     autonumber
     participant CLI
-    participant Loop as Agent loop
+    participant Agent as Agent loop
     participant LLM
     participant Tools as Tools + guardrails
     participant KB
     participant Web as Web search (server-side)
 
-    CLI->>Loop: Episode + Settings
-    Loop->>LLM: system prompt, tool list, transcript
-    LLM-->>Loop: plan (text) + tool_use search_knowledge_base
-    Loop->>Tools: search_knowledge_base(query)
+    CLI->>Agent: Episode + Settings
+    Agent->>LLM: system prompt, tool list, transcript
+    LLM-->>Agent: plan (text) + tool_use search_knowledge_base
+    Agent->>Tools: search_knowledge_base(query)
     Tools->>KB: BM25 search
     KB-->>Tools: top-k entries
-    Tools-->>Loop: tool_result
-    Loop->>LLM: tool_result
+    Tools-->>Agent: tool_result
+    Agent->>LLM: tool_result
     LLM->>Web: query (when the KB is silent or stale)
     Web-->>LLM: results
-    LLM-->>Loop: tool_use submit_key_notes
-    Loop->>Tools: validate quotes against transcript
-    Tools-->>Loop: is_error: "Quote 3 not verbatim at 00:04:15; line reads ..."
-    Loop->>LLM: error tool_result
-    LLM-->>Loop: corrected submit_key_notes
-    Tools-->>Loop: accepted
-    LLM-->>Loop: submit_summary, submit_fact_checks
-    LLM-->>Loop: finish
-    Tools-->>Loop: accepted (all artifacts present)
-    Loop->>CLI: EpisodeReport -> render + write
+    LLM-->>Agent: tool_use submit_key_notes
+    Agent->>Tools: validate quotes against transcript
+    Tools-->>Agent: is_error - Quote 3 not verbatim at 00:04:15, here is the real line
+    Agent->>LLM: error tool_result
+    LLM-->>Agent: corrected submit_key_notes
+    Tools-->>Agent: accepted
+    LLM-->>Agent: submit_summary, submit_fact_checks
+    LLM-->>Agent: finish
+    Tools-->>Agent: accepted (all artifacts present)
+    Agent->>CLI: EpisodeReport -> render + write
 ```
 
 ### Run states
 
 ```mermaid
-stateDiagram-v2
-    [*] --> Planning
-    Planning --> Working: plan written
-    Working --> Working: tool call accepted
-    Working --> Revising: guardrail rejects
-    Revising --> Working: corrected resubmission
-    Working --> Nudged: model stops without finish
-    Nudged --> Working: "still needed: ..." message
-    Working --> Done: finish accepted
-    Working --> Incomplete: turn budget exhausted
-    Working --> Failed: refusal / max_tokens / API error
-    Done --> [*]
-    Incomplete --> [*]
-    Failed --> [*]
+flowchart LR
+    S(( )) --> P[Planning]
+    P -->|plan written| W[Working]
+    W -->|guardrail rejects| R[Revising]
+    R -->|corrected resubmission| W
+    W -->|stops without finish| N[Nudged]
+    N -->|"still needed: ..."| W
+    W -->|finish accepted| D([Done])
+    W -->|turn budget exhausted| I([Incomplete])
+    W -->|refusal / max_tokens / API error| F([Failed])
 ```
 
 - **Done**: all three artifacts are accepted and `finish` is called. The report is written.
@@ -190,6 +186,7 @@ classDiagram
         confidence
         verification
         evidence
+        counter_evidence
         sources[]
     }
     class RunMetadata {
