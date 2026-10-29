@@ -2,6 +2,14 @@
 
 This document describes how the agent itself is built: its components, the control loop, how it plans and recovers, the data it produces, and the trade-offs behind each choice. Production infrastructure (queues, workers, storage, scaling and cost) is covered in [DEPLOYMENT.md](DEPLOYMENT.md).
 
+## System overview
+
+One diagram of the whole system: how a transcript enters, how the agent works on it, which services it calls, where results are stored and reviewed, and the cross-cutting concerns (observability, resilience, delivery, local mode). The sections below zoom into each part.
+
+![Podcast agent system architecture](architecture-overview.svg)
+
+Also available as [PNG](architecture-overview.png) for slides.
+
 ## 1. Goals and constraints
 
 | Requirement (from the brief) | Design response |

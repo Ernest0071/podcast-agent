@@ -9,6 +9,8 @@ An agentic AI system that turns raw podcast transcripts into publishable content
 It runs in Docker and calls **GLM-5.3-flash (`z-ai/glm-5.3-flash`) through OpenRouter** by default, a reasoning model with tool calling at $0.15/$0.50 per million tokens. Any other OpenRouter model, or Claude through the Anthropic API, is a one-line config change. Every reasoning step is logged: the plan, the model's reasoning, tool calls, guardrail rejections and web searches.
 
 - Architecture design (components, control loop, guardrails, data model, trade-offs): [design/ARCHITECTURE.md](design/ARCHITECTURE.md) ([PDF](design/ARCHITECTURE.pdf))
+
+![System architecture](design/architecture-overview.svg)
 - Deployment strategy (diagram and narrative): [design/DEPLOYMENT.md](design/DEPLOYMENT.md)
 - Sample outputs: [outputs/](outputs/) (`index.md`, plus `report.md`, `report.json`, `run.log` and `trace.jsonl` for each episode)
 
