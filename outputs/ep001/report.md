@@ -4,63 +4,66 @@
 
 ## Summary
 
-In this episode of Work Reimagined, host Sarah Johnson talks with guest Mark Rivera about what remote work actually means in practice, beyond the "work from anywhere" cliché. Mark argues that remote work is fundamentally about async-first culture, documentation, autonomy, and trust rather than location, and he points to GitLab, Automattic, and Doist as companies that have built detailed handbooks so employees can figure things out without constant guidance. He believes this documentation-first approach scales to smaller teams as well, reducing context-switching and keeping knowledge from being siloed. On tools, Mark cautions that Zoom and Slack are aids rather than solutions: culture is the real solution, and over-reliance on real-time chat leads to burnout, so asynchronous communication is key. For productivity measurement, he advocates outcomes over hours — set goals, track progress on deliverables, and trust the team, with transparency mattering more than check-ins. Addressing Sarah's question about loneliness, Mark acknowledges it as a real challenge and recommends regular virtual coffee chats, occasional in-person retreats, and team rituals to keep remote workers connected. Looking ahead, Mark predicts that remote-first companies will dominate talent acquisition, that local offices may become optional hubs, and that async culture will become standard practice. He closes with advice for teams transitioning to remote work: focus on documentation, set clear goals, invest in culture, and trust your team.
+In the debut episode of Work Reimagined, host Sarah Johnson and guest Mark Rivera move past the hype to examine what remote work actually requires in 2025 and beyond. Rivera argues that remote work is not simply about location. In his view, being remote is really an async-first culture built on documentation, structured processes, and autonomy, where employees can resolve questions themselves instead of constantly asking for guidance. He points to GitLab, Automattic, and Doist as companies that have written extensive handbooks covering how work gets done, and he believes the same documentation discipline benefits teams of any size by reducing context-switching and preventing knowledge from becoming siloed. On tools, Johnson asks whether Zoom and Slack are enough. Rivera is blunt that tools are not the solution — culture is — and warns that leaning on Slack for everything leads to burnout. For productivity measurement, he advocates outcomes over hours: set goals, track progress on deliverables, and trust the team, with transparency mattering more than check-ins. Addressing the widely cited downside of loneliness and weak connection, Rivera recommends regular virtual coffee chats, occasional in-person retreats, and team rituals, arguing that remote does not mean isolated as long as companies act with intention. Looking ahead, Rivera predicts remote-first companies will dominate talent acquisition, local offices will become optional hubs, and async culture will become standard practice. He closes with advice for teams transitioning to remote work: focus on documentation, set clear goals, invest in culture, and trust your team — that, he says, is the foundation.
 
 ## Key notes
 
 ### 🔹 Top takeaways
 
-1. Treat remote work as an async-first culture problem, not a location problem: documentation, autonomy, and structured processes are what make it work.
-2. GitLab, Automattic, and Doist maintain comprehensive company handbooks so employees can answer their own questions instead of asking for constant guidance.
-3. Tools like Zoom and Slack support remote work but don't solve it; over-reliance on real-time chat causes burnout, so shift communication to async.
-4. Measure productivity by outcomes and deliverables rather than hours or check-ins, paired with transparency and trust in the team.
+1. Remote work succeeds on async-first culture, documentation, and structured processes — not on the location itself.
+2. GitLab, Automattic, and Doist maintain extensive handbooks that let employees resolve questions without constant guidance, and even small teams can copy this approach.
+3. Relying on Slack (or any single tool) for all communication leads to burnout; culture, not tooling, is the real solution.
+4. Measure remote productivity by outcomes and deliverables rather than hours, and use transparency instead of constant check-ins.
 5. Combat remote loneliness deliberately with virtual coffee chats, occasional in-person retreats, and team rituals.
 
 ### 💬 Notable quotes
 
 - **[00:00:45] Mark Rivera:** “It’s more about async-first culture, documentation, and autonomy.”
-- **[00:01:20] Mark Rivera:** “They’ve literally written handbooks for everything.”
-- **[00:02:45] Mark Rivera:** “Slack is great, but if you rely on it for everything, people will burn out.”
-- **[00:03:25] Mark Rivera:** “Outcomes over hours. Set goals, track progress on deliverables, and trust the team.”
+- **[00:02:45] Mark Rivera:** “Tools aren’t the solution. Culture is.”
+- **[00:03:25] Mark Rivera:** “Outcomes over hours.”
+- **[00:03:25] Mark Rivera:** “Transparency matters more than check-ins.”
 - **[00:04:10] Mark Rivera:** “Remote doesn’t mean isolated; it just needs intention.”
-- **[00:05:00] Mark Rivera:** “Remote-first companies will dominate talent acquisition.”
 
 ### 🧭 Topics
 
-`#remote-work` `#async-communication` `#documentation-culture` `#company-handbooks` `#productivity-measurement` `#remote-loneliness` `#future-of-work` `#distributed-teams`
+`#remote-work` `#async-communication` `#documentation-culture` `#productivity-measurement` `#distributed-teams` `#company-handbooks`
 
 ## Fact-check
 
 | | Claim | Said by | Verification | Confidence |
 |---|---|---|---|---|
-| ✅ | GitLab publishes a public company handbook covering its processes and how work gets done. | Mark Rivera [00:01:20] | True (GitLab public handbook) | 0.95 |
-| ✅ | Automattic has been a fully distributed company and documents its way of working in company materials such as the Automattic Creed. | Mark Rivera [00:01:20] | True (Automattic distributed since 2005) | 0.90 |
-| ✅ | Doist is a remote-first company that publicly advocates async-first communication and has published guides on remote and asynchronous work. | Mark Rivera [00:01:20] | True (Doist async-first remote company) | 0.90 |
-| ✅ | Loneliness or lack of connection is often cited as a downside of remote work. | Sarah Johnson [00:03:55] | True (Buffer surveys; 2025 loneliness study) | 0.85 |
-| ❓ | Remote-first companies will dominate talent acquisition, local offices will become optional hubs, and async culture will become standard practice. | Mark Rivera [00:05:00] | Prediction — cannot be verified | 0.40 |
-| ❓ | Over-reliance on Slack for all communication leads to burnout, and culture rather than tools is the solution to remote work challenges. | Mark Rivera [00:02:45] | Opinion/prediction — not independently verifiable | 0.35 |
+| ✅ | GitLab is an all-remote company with no offices that publishes its company handbook publicly at handbook.gitlab.com, covering processes and how work gets done. | Mark Rivera [00:01:20] | True (GitLab public handbook) | 0.95 |
+| ✅ | Automattic, the company behind WordPress.com and Tumblr, is a distributed company that maintains handbook-style documentation of how it works (Automattic Creed and Field Guide). | Mark Rivera [00:01:20] | True (Automattic About page) | 0.85 |
+| ✅ | Doist, the maker of Todoist and Twist, is a remote-first company that publicly advocates async-first communication and publishes guides on remote and asynchronous work. | Mark Rivera [00:01:20] | True (Doist About/blog) | 0.90 |
+| ✅ | Loneliness and lack of connection are commonly cited as downsides of remote work. | Sarah Johnson [00:03:55] | True (widely documented downside) | 0.80 |
+| ❓ | Remote-first companies will dominate talent acquisition, with local offices becoming optional hubs and async culture becoming standard practice. | Mark Rivera [00:05:00] | Prediction — cannot be confirmed or refuted | 0.40 |
 
 ✅ Verified true · ⚠️ Possibly outdated/inaccurate · ❓ Unverifiable
 
 ### Evidence
 
-1. ✅ **GitLab publishes a public company handbook covering its processes and how work gets done.** (entity fact). The agency knowledge base and GitLab's own handbook site confirm GitLab is an all-remote company that publishes its handbook publicly at handbook.gitlab.com, running to thousands of pages. Sources: `kb-remote-001`, [link](https://handbook.gitlab.com/)
-2. ✅ **Automattic has been a fully distributed company and documents its way of working in company materials such as the Automattic Creed.** (entity fact). The knowledge base states Automattic has been fully distributed since its founding in 2005 and documents its way of working in the Automattic Creed and an internal field guide. (Note for readers: Automattic's handbook is mostly internal rather than published publicly like GitLab's.) Sources: `kb-remote-002`, [link](https://automattic.com/about/)
-3. ✅ **Doist is a remote-first company that publicly advocates async-first communication and has published guides on remote and asynchronous work.** (entity fact). The knowledge base describes Doist (maker of Todoist and Twist) as remote-first with roughly 100 employees across 30+ countries, publicly advocating async-first communication and publishing remote-work guides. Sources: `kb-remote-003`, [link](https://doist.com/)
-4. ✅ **Loneliness or lack of connection is often cited as a downside of remote work.** (current event). Buffer's State of Remote Work surveys (2020, 2021) consistently list loneliness among the top struggles remote workers report, and a 2025 study in the Journal of Affective Disorders examines remote work and loneliness. (Caveat: Buffer's reporting notes loneliness rankings don't imply remote work causes loneliness, and recent surveys rank 'not being able to unplug' above it — but the claim is only that loneliness is often cited, which holds.) Sources: [link](https://buffer.com/state-of-remote-work/2020), [link](https://buffer.com/state-of-remote-work/2021), [link](https://doi.org/10.1016/j.jad.2025.120456)
-5. ❓ **Remote-first companies will dominate talent acquisition, local offices will become optional hubs, and async culture will become standard practice.** (prediction). This is a forward-looking prediction made on the show; no evidence can confirm or refute a future state. The knowledge base notes that while surveys show workers value flexibility, evidence that remote-first firms dominate hiring overall is not established. Counter-evidence: kb-remote-006 notes surveys show workers value flexibility but evidence that remote-first firms dominate hiring overall is not established; return-to-office mandates through 2025-2026 complicate the office-becomes-optional prediction. Sources: `kb-remote-006`
-6. ❓ **Over-reliance on Slack for all communication leads to burnout, and culture rather than tools is the solution to remote work challenges.** (prediction). This is the guest's opinion and causal prediction about tool overuse; no direct evidence either way was found in the knowledge base or web sources consulted, though it is consistent with expert commentary on communication overload. Sources: `kb-remote-003`
+1. ✅ **GitLab is an all-remote company with no offices that publishes its company handbook publicly at handbook.gitlab.com, covering processes and how work gets done.** (entity fact). Knowledge base entry kb-remote-001 confirms GitLab is all-remote with no offices and publishes its thousands-of-pages handbook publicly at handbook.gitlab.com. Sources: `kb-remote-001`, [link](https://handbook.gitlab.com/)
+2. ✅ **Automattic, the company behind WordPress.com and Tumblr, is a distributed company that maintains handbook-style documentation of how it works (Automattic Creed and Field Guide).** (entity fact). Knowledge base entry kb-remote-002 confirms Automattic has been fully distributed since 2005, closed its San Francisco office in 2017, and documents its way of working in the Automattic Creed and a Field Guide. Sources: `kb-remote-002`, [link](https://automattic.com/about/)
+3. ✅ **Doist, the maker of Todoist and Twist, is a remote-first company that publicly advocates async-first communication and publishes guides on remote and asynchronous work.** (entity fact). Knowledge base entry kb-remote-003 confirms Doist is remote-first with roughly 100 employees across 30+ countries and publicly advocates async-first communication with published guides. Sources: `kb-remote-003`, [link](https://doist.com/)
+4. ✅ **Loneliness and lack of connection are commonly cited as downsides of remote work.** (current event). Buffer's State of Remote Work surveys and a 2025 study published in Nature (Ding et al.) both identify isolation and loneliness as among the most commonly cited struggles with remote work. Sources: [link](https://buffer.com/state-of-remote-work), [link](https://www.nature.com/articles/s41586-025-09247-w)
+5. ❓ **Remote-first companies will dominate talent acquisition, with local offices becoming optional hubs and async culture becoming standard practice.** (prediction). This is a forward-looking prediction about future hiring and workplace norms, so no evidence can confirm it. Counter-evidence: While not a counterexample to the prediction itself, knowledge base entry kb-remote-006 notes evidence that remote-first firms dominate hiring overall is not established, and kb-remote-005 documents major employers (e.g., Amazon mandating five office days from January 2025) moving in the opposite direction, which weakens the prediction's plausibility. Sources: `kb-remote-006`, `kb-remote-005`, [link](https://www.aboutamazon.com/news/company-news/ceo-andy-jassy-latest-update-on-amazon-return-to-office-manager-team-changes)
 
 ## Run details
 
 - Model: `z-ai/glm-5.3-flash` (effort `high`), web search on
-- 5 agent turns, 8 tool calls, 1 guardrail rejections, 2 web searches
-- Tokens: 14,600 in / 5,357 out / 24,320 cache read; est. cost $0.0184
-- Duration: 33.3s · started 2026-10-29T23:21:08+00:00
+- 6 agent turns, 7 tool calls, 1 guardrail rejections, 2 web searches
+- Tokens: 18,501 in / 4,200 out / 19,136 cache read; est. cost $0.0165
+- Duration: 82.6s · started 2026-11-03T19:51:31+00:00
 - Agent reasoning trace: `run.log` (readable) and `trace.jsonl` (structured)
 
 <details><summary>Agent plan</summary>
 
-Plan: (1) Identify checkable claims — mainly the named-company claim about GitLab, Automattic and Doist publishing handbooks, plus any entity facts and Mark's forward-looking predictions. (2) Search the knowledge base for each claim, then web search where the KB is missing or possibly stale. (3) Submit the summary, key notes, and fact-check table, then finish.
+Plan:
+1. Summarize the episode (200-300 words) covering themes and each speaker's views.
+2. Extract key notes: 5 takeaways, verbatim quotes with timestamps, topic tags.
+3. Fact-check checkable claims — GitLab/Automattic/Doist handbooks, remote work trends, and the 2025 prediction — via knowledge base first, then web search.
+4. Submit all three artifacts, then finish.
+
+Starting with knowledge base searches for the main factual claims.
 
 </details>

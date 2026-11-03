@@ -11,3 +11,4 @@ docs/*.jpg
 docs/ep*.json
 docs/
 .DS_Store
+.vscode/
